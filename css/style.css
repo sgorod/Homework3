@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 13px/21px 'Open Sans', sans-serif;
+    color: #2c2c2c;    
+}
+
+.wrapper {
+     margin: 0 auto;
+    width: 1060px;
+    background-color: #ffffff;
+    border: solid 1px #bbbbbb;
+    box-shadow: 0 0 4px rgba(0,0,0,0.5); 
+    
+}
+
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style-type: none;
+}
+img {
+	border: 1px solid #c8c8c8;
+}
+.logo {
+    font-size: 48px;
+}
+ header {
+	padding-bottom: 40px;
+}
+p {
+	padding: 40px 24px;
+}
+.page {
+	padding: 50px 45px 60px;
+}
+
+/* -- Middle --*/
+.middle {
+	width: 100%;
+	position: relative;
+	padding-bottom: 20px;
+}
+.middle:after {
+	display: table;
+	clear: both;
+	content: '';
+}
+.container {
+	width: 100%;
+	float: left;
+	overflow: hidden;
+}
+.content {
+	padding: 0 0 0 285px;
+}
+
+
+  
+.left-sidebar {
+	float: left;
+	width: 265px;
+	margin-left: -100%;
+	position: relative;
+}  
+
+.footer {
+	height: 40px;
+	background: #e1e1e1;
+}
+
+  /*меню header*/
+
+ .header-navigation {
+	padding-top: 40px;
+}
+.header-navigation ul {
+	height: 40px;
+	display: block;
+	background: #5d5d5d;
+}
+.header-navigation  ul li {
+	display: inline-block;
+}
+.header-navigation  a {
+	padding: 8px 24px 0;
+	height: 32px;
+	font-size: 15px; ;
+	color: #fff;
+	display: block;
+	text-shadow: 1px 2px 3px #000;
+}
+.header-navigation  li.active,
+.header-navigation  a:hover {
+	background: #494949 ;
+}
+.header-navigation  li.active {
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+}
+ 
+/* меню sidebar */
+ 
+.sidebar-navigation {
+	width: 238px;
+	border: 1px solid #c8c8c8;
+}
+.sidebar-navigation a {
+	padding: 10px 0 0 24px;
+	height: 30px;
+	color: #656363;
+	display: block;
+	border-bottom: 1px solid #c8c8c8;
+}
+.sidebar-navigation li:last-child {
+	border: none;
+}
+.sidebar-navigation a.active,
+.sidebar-navigation a:hover {
+	background-color: #e1e1e1;
+}
+
+.sidebar-navigation a.active {
+	padding-left: 48px;
+	color: #2c2c2c;
+}
+
+
+
+
+/* меню footer */
+.footer-navigation ul {
+	height: 40px;
+	display: block;
+}
+.footer-navigation ul li {
+	margin-top: 5px;
+	padding: 5px 48px;
+	display: inline-block;
+}
+.footer-navigation ul li:first-child {
+	padding-left: 24px;
+}
+.footer-navigation ul li:last-child {
+	padding-right: 24px;
+}
+.footer-navigation a {
+	height: 20px;
+	display: block;
+    color: #2c2c2c;
+}
+.footer-navigation a.active,
+.footer-navigation a:hover {
+	text-decoration: underline;
+}
+.footer-navigation li.rights {
+	float: right;
+}
+
