@@ -102,28 +102,34 @@ p {
  
 /* меню sidebar */
  
-.sidebar-navigation {
-	width: 238px;
-	border: 1px solid #c8c8c8;
+.sidebar-navigation ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-.sidebar-navigation a {
-	padding: 10px 0 0 24px;
-	height: 30px;
-	color: #656363;
+.sidebar-navigation li {
+	border: solid 1px #c8c8c8;
+}
+.sidebar-navigation li:not(:last-child) {
+	border-bottom: none;
+}
+.sidebar-navigation li a {
 	display: block;
-	border-bottom: 1px solid #c8c8c8;
+	padding: 13px 23px;
+	font-size: 13px;
+	line-height: 13px;
+	color: #656363;
+	text-decoration: none;
 }
-.sidebar-navigation li:last-child {
-	border: none;
-}
-.sidebar-navigation a.active,
-.sidebar-navigation a:hover {
+.sidebar-navigation li a:hover {
+	text-indent: 30px;
 	background-color: #e1e1e1;
 }
-
-.sidebar-navigation a.active {
-	padding-left: 48px;
+.sidebar-navigation .active {
+	font-weight: bold;
+    padding-left: 48px;
 	color: #2c2c2c;
+    background-color:#e1e1e1;
 }
 
 
